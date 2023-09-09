@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+.logo {
+  width: 150px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+#introduction {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  gap: 50px;
+}
+
+.main-img {
+  width: 800px;
+}
+
+.first p {
+  max-width: 500px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: bold;
+}
+
+#Luffy_gears {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+#Luffy_gears h2 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: extra-bold;
+  margin-bottom: 80px;
+}
+
+.gears {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gears img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: #3882f6 solid 5px;
+}
+
+.gears figcaption {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#Luffy_quotes {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quotes {
+  max-width: 800px;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quotes figcaption {
+  font-weight: bold;
+  text-align: right;
+}
+
+#One_piece {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.manga {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.manga button {
+  border: #f9faf8 solid 2px;
+  height: 40px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.manga p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
